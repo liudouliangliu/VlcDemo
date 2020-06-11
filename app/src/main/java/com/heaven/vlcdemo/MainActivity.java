@@ -124,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 mVideoWidth = mTaxiSurf.getMeasuredWidth();
                 mVideoHeight = mTaxiSurf.getMeasuredHeight();
                 String mTaxiVideoUrl = Environment.getExternalStorageDirectory() + File.separator+ "video_default.wmv";
-                mTaxiVideoUrl = "http://210.12.220.60:8093/live/104hd";
+                mTaxiVideoUrl = "http://vfx.mtime.cn/Video/2019/02/04/mp4/190204084208765161.mp4";
                 Media media = new Media(libVLCTaxi, Uri.parse(mTaxiVideoUrl));
                 mTaxiPlayer.setMedia(media);
                 media.release();
