@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <SurfaceView
+    <TextureView
         android:id="@+id/surface_video_left"
         android:layout_width="789px"
         android:layout_height="471px"
