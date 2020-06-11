@@ -1,0 +1,4 @@
+# VlcDemo
+vlcdemo是用vlc播放Android视频的demo
+提供已经编译好的aar库
+并提供了在线视频播放功能
